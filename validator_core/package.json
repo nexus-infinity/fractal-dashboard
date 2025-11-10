@@ -1,0 +1,22 @@
+{
+  "name": "@field/validator-core",
+  "version": "1.0.0",
+  "description": "Field System Validation Framework",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest",
+    "lint": "eslint src/**/*.ts"
+  },
+  "dependencies": {
+    "typescript": "^4.9.0",
+    "zod": "^3.21.0"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.0.0",
+    "jest": "^29.0.0",
+    "ts-jest": "^29.0.0",
+    "@typescript-eslint/parser": "^5.59.7"
+  }
+}
